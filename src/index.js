@@ -17,11 +17,11 @@ const Alexa = require('alexa-sdk');
 
 //Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
 //Make sure to enclose your value in quotes, like this: const APP_ID = 'amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1';
-const APP_ID = undefined;
+const APP_ID = 'amzn1.ask.skill.fd9295c1-0771-45a7-ab30-00898e41203b';
 
-const SKILL_NAME = 'Space Facts';
+const SKILL_NAME = 'Beauty Facts';
 const GET_FACT_MESSAGE = "Here's your fact: ";
-const HELP_MESSAGE = 'You can say tell me a space fact, or, you can say exit... What can I help you with?';
+const HELP_MESSAGE = 'You can say tell me a beauty fact, or, you can say exit... What can I help you with?';
 const HELP_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 
@@ -29,19 +29,19 @@ const STOP_MESSAGE = 'Goodbye!';
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 const data = [
-    'A year on Mercury is just 88 days long.',
-    'Despite being farther from the Sun, Venus experiences higher temperatures than Mercury.',
-    'Venus rotates counter-clockwise, possibly because of a collision in the past with an asteroid.',
-    'On Mars, the Sun appears about half the size as it does on Earth.',
-    'Earth is the only planet not named after a god.',
-    'Jupiter has the shortest day of all the planets.',
-    'The Milky Way galaxy will collide with the Andromeda Galaxy in about 5 billion years.',
-    'The Sun contains 99.86% of the mass in the Solar System.',
-    'The Sun is an almost perfect sphere.',
-    'A total solar eclipse can happen once every 1 to 2 years. This makes them a rare event.',
-    'Saturn radiates two and a half times more energy into space than it receives from the sun.',
-    'The temperature inside the Sun can reach 15 million degrees Celsius.',
-    'The Moon is moving approximately 3.8 cm away from our planet every year.',
+    'Rinsing your face with icy water does not help tighten pores at all and hot water can dehydrate skin. It is best to wash with lukewarm water ',
+    'Good workout helps blood circulation and keeps skin cells vital. But too much exercise can bring out excessive heat throughout the body which may lead to breakouts and skin irritation.',
+    '20 minutes should be the maximum amount of time used for Facial masks.',
+    'Keeping your cosmetics in cold refrigerator wont make them last longer. It is best to keep your cosmetics in shaded, sunlight-free environment.',
+    'Using baby product for sensitive skin is not always the best choice for those with oily skin, since baby products are likely to be oily and extremely moisturizing',
+    'Average life of perfumes after opening is up to 3 years.',
+    'Average life of nail polish after opening is up to 1 year.',
+    'Average life of mascara after opening is 3 to 6 months.',
+    'Wear your sunscreen everyday. Even when its cloudy. According to American Acadamy of Dermatology, 80 percent of suns ultraviolet ray can pass through clouds.',
+    'For sensitive skins, its best to exfoliate skin once in two weeks.',
+    'Ideal shower water temperature is lukewarm. But it is best to keep water below 110 degrees.',
+    'Using too many producst for your daily moisturizing routine may leave excessive remaining on your skin which may cause breakouts.',
+    'Never go to bed without cleasing your make up. While asleep, make up residue can clog your pores and lead to break outs.',
 ];
 
 //=========================================================================================================================================
